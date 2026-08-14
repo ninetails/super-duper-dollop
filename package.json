@@ -5,13 +5,33 @@
     "apps/*",
     "packages/*"
   ],
-  "devDependencies": {
-    "turbo": "latest"
-  },
   "scripts": {
+    "cz": "bunx cz",
     "dev": "turbo dev",
     "build": "turbo build",
     "lint": "turbo lint",
-    "test": "turbo test"
+    "test": "turbo test",
+    "prepare": "husky"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "bun",
+      "version": "^1.3.14"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "turbo": "latest"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
+    "husky": "^9.1.7"
   }
 }
