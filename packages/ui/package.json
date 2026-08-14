@@ -1,0 +1,17 @@
+{
+  "name": "@super-duper-dollup/ui",
+  "private": true,
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "typescript": "^7.0.2"
+  },
+  "peerDependencies": {
+    "@tsconfig/bases": "^1.0.26",
+    "react": "^19.2.8"
+  }
+}
