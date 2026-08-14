@@ -2,8 +2,14 @@
   "name": "@super-duper-dollup/ui",
   "private": true,
   "version": "0.0.0",
-  "main": "./index.ts",
-  "types": "./index.ts",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "module": "./src/index.ts",
+  "scripts": {
+    "lint": "bun --bun biome check",
+    "format": "bun --bun biome check --write"
+  },
   "devDependencies": {
     "@types/react": "^19.2.18",
     "react": "^19.2.8",
@@ -11,7 +17,10 @@
     "typescript": "^7.0.2"
   },
   "peerDependencies": {
-    "@tsconfig/bases": "^1.0.26",
+    "@biomejs/biome": "^2.5.8",
+    "@tsconfig/bun": "^1.0.10",
+    "@tsconfig/recommended": "^1.0.13",
+    "@tsconfig/strictest": "^2.0.8",
     "react": "^19.2.8"
   }
 }

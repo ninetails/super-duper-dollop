@@ -1,0 +1,27 @@
+{
+  "name": "storybook",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "bun --bun storybook dev -p 6006",
+    "build": "bun --bun storybook build",
+    "lint": "bun --bun biome check",
+    "format": "bun --bun biome check --write"
+  },
+  "dependencies": {
+    "@super-duper-dollup/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@storybook/addon-links": "^10.5.8",
+    "@storybook/react": "^10.5.8",
+    "@storybook/react-vite": "^10.5.8",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "storybook": "^10.5.8",
+    "typescript": "^7.0.2"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "^2.5.8"
+  }
+}

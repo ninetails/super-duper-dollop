@@ -3,5 +3,10 @@
     "@tsconfig/bun/tsconfig.json",
     "@tsconfig/recommended/tsconfig.json",
     "@tsconfig/strictest/tsconfig.json"
-  ]
+  ],
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "verbatimModuleSyntax": true
+  }
 }
