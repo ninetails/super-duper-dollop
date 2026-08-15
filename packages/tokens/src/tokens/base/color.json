@@ -1,0 +1,28 @@
+{
+  "color": {
+    "neutral": {
+      "white": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "black": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "gray100": {
+        "$type": "color",
+        "$value": "#F4F4F5"
+      },
+      "gray900": {
+        "$type": "color",
+        "$value": "#18181B"
+      }
+    },
+    "primary": {
+      "500": {
+        "$type": "color",
+        "$value": "#6200EE"
+      }
+    }
+  }
+}

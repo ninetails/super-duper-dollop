@@ -1,0 +1,54 @@
+{
+  "font": {
+    "family": {
+      "sans": {
+        "$type": "fontFamily",
+        "$value": "Inter, sans-serif"
+      }
+    },
+    "size": {
+      "base": {
+        "$type": "dimension",
+        "$value": "1rem"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "1.618rem"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "2.618rem"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "4.236rem"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "6.854rem"
+      }
+    },
+    "lineHeight": {
+      "base": {
+        "$type": "dimension",
+        "$value": "1.5rem"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "2rem"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "3rem"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "5rem"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "8rem"
+      }
+    }
+  }
+}

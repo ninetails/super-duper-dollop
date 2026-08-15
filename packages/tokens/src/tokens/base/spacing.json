@@ -1,0 +1,20 @@
+{
+  "spacing": {
+    "xsmall": {
+      "$type": "dimension",
+      "$value": ".25rem"
+    },
+    "small": {
+      "$type": "dimension",
+      "$value": ".5rem"
+    },
+    "medium": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "large": {
+      "$type": "dimension",
+      "$value": "2rem"
+    }
+  }
+}

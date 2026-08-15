@@ -1,0 +1,28 @@
+{
+  "font": {
+    "responsive": {
+      "size": {
+        "base": {
+          "$type": "dimension",
+          "$value": "1rem"
+        },
+        "lg": {
+          "$type": "clamp",
+          "$value": {
+            "min": "1.125rem",
+            "ideal": "1vw + 1rem",
+            "max": "1.5rem"
+          }
+        },
+        "xl": {
+          "$type": "clamp",
+          "$value": {
+            "min": "1.5rem",
+            "ideal": "2vw + 1rem",
+            "max": "2.25rem"
+          }
+        }
+      }
+    }
+  }
+}

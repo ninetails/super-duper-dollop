@@ -1,0 +1,18 @@
+{
+  "theme": {
+    "dark": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.neutral.gray900}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.neutral.white}"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.primary.500}"
+      }
+    }
+  }
+}
